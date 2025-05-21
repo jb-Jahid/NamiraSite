@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Parvez Namira - Profile</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f5f7fa;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background: #2c3e50;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 2rem auto;
+      background: white;
+      padding: 2rem;
+      border-radius: 15px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+      animation: fadeIn 1.5s ease-in;
+    }
+
+    @keyframes fadeIn {
+      from {opacity: 0; transform: translateY(30px);}
+      to {opacity: 1; transform: translateY(0);}
+    }
+
+    .info {
+      margin-bottom: 1.2rem;
+    }
+
+    .info strong {
+      display: inline-block;
+      width: 120px;
+    }
+
+    a {
+      color: #2c3e50;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+
+    .social-links a img {
+      width: 40px;
+      height: 40px;
+      transition: transform 0.3s;
+    }
+
+    .social-links a:hover img {
+      transform: scale(1.2);
+    }
+
+    .skills-section {
+      margin-top: 3rem;
+    }
+
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1rem;
+    }
+
+    .card {
+      background: #ecf0f1;
+      padding: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      transition: transform 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: #34495e;
+    }
+
+    .profile-section {
+      margin-top: 3rem;
+      padding: 2rem;
+      background: #f0f4f8;
+      border-radius: 12px;
+    }
+
+    .profile-section h2 {
+      text-align: center;
+      color: #2c3e50;
+    }
+
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: none;
+      margin-top: 2rem;
+      border-radius: 8px;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 2rem;
+      padding: 1rem;
+      color: #fff;
+      background: #2c3e50;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Parvez Namira</h1>
+    <p>Welcome to my professional profile!</p>
+  </header>
+
+  <div class="container">
+    <div class="info"><strong>Age:</strong> 21</div>
+    <div class="info"><strong>Gender:</strong> Female</div>
+    <div class="info"><strong>University:</strong> <a href="https://www.hal.ac.jp/osaka" target="_blank">HAL Osaka</a></div>
+
+    <h3>Follow me:</h3>
+    <div class="social-links">
+      <a href="https://www.facebook.com/NamiraParvez70/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook">
+      </a>
+      <a href="https://www.instagram.com/parvez.namira/" target="_blank">
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram">
+      </a>
+    </div>
+
+    <div class="skills-section">
+      <h2>My Strengths</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Strong Sense of Responsibility</h3>
+          <p>
+            I take my responsibilities seriously and always see tasks through to completion. I believe that accountability is essential for personal and professional success.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Excellent Teamwork</h3>
+          <p>
+            I value communication and cooperation. I thrive in team environments and am always willing to support and collaborate with others to achieve shared goals.
+          </p>
+        </div>
+        <div class="card">
+          <h3>High Motivation to Grow</h3>
+          <p>
+            I am eager to take on new challenges and continuously improve myself. I believe that growth comes from learning and stepping outside of comfort zones.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Adaptability</h3>
+          <p>
+            I am flexible and can adapt to different situations quickly. Whether it's new technology or new environments, I embrace change and learn from it.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Positive Mindset</h3>
+          <p>
+            I maintain a positive and optimistic attitude, even when faced with difficulties. I believe in turning challenges into opportunities for learning.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="profile-section">
+      <h2>About Me</h2>
+      <p>
+        I am a dedicated and responsible individual with a strong desire to grow both personally and professionally. I always strive to complete tasks with integrity and precision, and I never give up until I reach the finish line. One of my greatest strengths is communication—I enjoy working with others and building strong, collaborative relationships within a team. I believe that mutual respect and open dialogue lead to better outcomes.
+      </p>
+      <p>
+        I am also highly motivated to learn and challenge myself with new experiences. Whether it’s technology, design, or working in a global environment, I am eager to explore and develop my skills. I am currently studying at HAL Osaka, a place where I can enhance my creativity and technical knowledge. With every step, I aim to become someone who can contribute positively to society and work globally in the future.
+      </p>
+    </div>
+
+    <h2 style="text-align:center; margin-top:3rem; color:#2c3e50;">HAL Osaka Website Preview</h2>
+    <iframe src="https://www.hal.ac.jp/osaka"></iframe>
+  </div>
+
+  <footer>
+    &copy; 2025 Parvez Namira. All rights reserved.
+  </footer>
+</body>
+</html>
